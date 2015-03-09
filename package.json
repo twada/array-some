@@ -9,6 +9,7 @@
   },
   "bugs": "https://github.com/twada/array-some/issues",
   "devDependencies": {
+    "jshint": "^2.6.3",
     "mocha": "^2.2.1"
   },
   "files": [
@@ -40,6 +41,7 @@
     "url": "git://github.com/twada/array-some.git"
   },
   "scripts": {
-    "test": "mocha"
+    "lint": "jshint index.js",
+    "test": "npm run lint && mocha"
   }
 }
