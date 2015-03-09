@@ -15,6 +15,7 @@
   "files": [
     "README.md",
     "index.js",
+    "build/array-some.js",
     "package.json",
     "test"
   ],
@@ -41,6 +42,7 @@
     "url": "git://github.com/twada/array-some.git"
   },
   "scripts": {
+    "build": "browserify index.js --standalone some | dereserve | derequire > ./build/array-some.js",
     "lint": "jshint index.js",
     "test": "npm run lint && mocha"
   }
