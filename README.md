@@ -33,10 +33,11 @@ EXAMPLE
 
 ```javascript
 var some = require('array-some');
-var result = some([2, 5, 18, 1, 4], function (element, index, array) {
-    return (10 < element);
-});
-console.log(result); // true
+function isBiggerThan10 (element, index, array) {
+    return element > 10;
+}
+some([2, 5, 8, 1, 4], isBiggerThan10);  // false
+some([12, 5, 8, 1, 4], isBiggerThan10); // true
 ```
 
 
@@ -68,8 +69,8 @@ Load (`some` function is exported)
 Use
 
 ```javascript
-var result = some([2, 5, 18, 1, 4], function (element, index, array) {
-    return (10 < element);
+var result = some([2, 5, 8, 1, 4], function (element, index, array) {
+    return element > 10;
 });
 ```
 
