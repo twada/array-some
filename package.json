@@ -1,0 +1,45 @@
+{
+  "name": "array-some",
+  "description": "Array#some ponyfill for older browsers",
+  "version": "0.9.0",
+  "author": {
+    "name": "Takuto Wada",
+    "email": "takuto.wada@gmail.com",
+    "url": "https://github.com/twada"
+  },
+  "bugs": "https://github.com/twada/array-some/issues",
+  "devDependencies": {
+    "mocha": "^2.2.1"
+  },
+  "files": [
+    "README.md",
+    "index.js",
+    "package.json",
+    "test"
+  ],
+  "homepage": "https://github.com/twada/array-some",
+  "keywords": [
+    "array",
+    "browser",
+    "es5",
+    "ie6",
+    "ie7",
+    "ie8",
+    "polyfill",
+    "ponyfill",
+    "shim",
+    "some"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "http://twada.mit-license.org/"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/twada/array-some.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
