@@ -5,9 +5,9 @@
  * 
  * https://github.com/twada/array-some
  *
- * Copyright (c) 2015 Takuto Wada
+ * Copyright (c) 2015-2016 Takuto Wada
  * Licensed under the MIT license.
- *   http://twada.mit-license.org/
+ *   https://github.com/twada/array-some/blob/master/MIT-LICENSE
  */
 'use strict';
 
