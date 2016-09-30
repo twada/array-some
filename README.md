@@ -8,9 +8,7 @@ array-some
 [![License][license-image]][license-url]
 
 
-Array#some ponyfill for older browsers
-
-> Ponyfill: A polyfill that doesn't overwrite the native method
+Array#some [ponyfill](https://ponyfill.com) for older browsers
 
 
 DESCRIPTION
